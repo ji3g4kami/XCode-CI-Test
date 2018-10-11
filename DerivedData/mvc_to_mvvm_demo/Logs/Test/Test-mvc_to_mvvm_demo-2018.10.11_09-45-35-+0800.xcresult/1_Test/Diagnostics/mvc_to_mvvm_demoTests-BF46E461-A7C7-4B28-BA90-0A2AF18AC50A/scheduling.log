@@ -1,0 +1,5 @@
+2018-10-11 01:45:39 +0000: Received worker from worker provider: 0x7faec77655c0 [0: iPhone X (AD0B8FEC-98B1-4F7F-8FBE-BA4B781D8C5A)]
+2018-10-11 01:45:53 +0000: Worker 0x7faec77655c0 [59683: iPhone X (AD0B8FEC-98B1-4F7F-8FBE-BA4B781D8C5A)] finished bootstrapping
+2018-10-11 01:45:53 +0000: Parallelization disabled; test execution driven by the test process
+2018-10-11 01:45:54 +0000: Worker 0x7faec77655c0 [59683: iPhone X (AD0B8FEC-98B1-4F7F-8FBE-BA4B781D8C5A)] finished successfully
+2018-10-11 01:45:54 +0000: Finished executing tests (cancelled: No)

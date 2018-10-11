@@ -1,0 +1,5 @@
+version: "Apple Swift version 4.2 (swiftlang-1000.11.37.1 clang-1000.11.45.1)"
+options: "e29fa6c5efe515ea499fa69060ca4ba4"
+build_time: [1539049974, 502968000]
+inputs:
+  "/Users/udn/Downloads/mvc_to_mvvm_demo_starter/mvc_to_mvvm_demoTests/mvc_to_mvvm_demoTests.swift": [1530661826, 0]

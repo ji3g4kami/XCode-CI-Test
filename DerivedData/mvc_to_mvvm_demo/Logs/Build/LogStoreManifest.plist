@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>9</integer>
+	<key>logs</key>
+	<dict>
+		<key>422EB77C-8A36-4D06-86D1-F1F05A9CE1C4</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>422EB77C-8A36-4D06-86D1-F1F05A9CE1C4.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>mvc_to_mvvm_demo project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>mvc_to_mvvm_demo</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>0</integer>
+			<key>signature</key>
+			<string>Build mvc_to_mvvm_demo</string>
+			<key>timeStartedRecording</key>
+			<real>560743164.69321001</real>
+			<key>timeStoppedRecording</key>
+			<real>560743169.18041801</real>
+			<key>title</key>
+			<string>Build mvc_to_mvvm_demo</string>
+			<key>uniqueIdentifier</key>
+			<string>422EB77C-8A36-4D06-86D1-F1F05A9CE1C4</string>
+		</dict>
+		<key>B6AB5CE8-41A8-4EA5-A7A3-11E50B869D9E</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>B6AB5CE8-41A8-4EA5-A7A3-11E50B869D9E.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>mvc_to_mvvm_demo project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>mvc_to_mvvm_demo</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>0</integer>
+			<key>signature</key>
+			<string>Build mvc_to_mvvm_demo</string>
+			<key>timeStartedRecording</key>
+			<real>560915135.77233601</real>
+			<key>timeStoppedRecording</key>
+			<real>560915140.21014297</real>
+			<key>title</key>
+			<string>Build mvc_to_mvvm_demo</string>
+			<key>uniqueIdentifier</key>
+			<string>B6AB5CE8-41A8-4EA5-A7A3-11E50B869D9E</string>
+		</dict>
+		<key>E902917E-7588-4E66-A864-A8E39DED58B9</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>E902917E-7588-4E66-A864-A8E39DED58B9.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>mvc_to_mvvm_demo project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>mvc_to_mvvm_demo</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>0</integer>
+			<key>signature</key>
+			<string>Build mvc_to_mvvm_demo</string>
+			<key>timeStartedRecording</key>
+			<real>560743452.116611</real>
+			<key>timeStoppedRecording</key>
+			<real>560743454.95761299</real>
+			<key>title</key>
+			<string>Build mvc_to_mvvm_demo</string>
+			<key>uniqueIdentifier</key>
+			<string>E902917E-7588-4E66-A864-A8E39DED58B9</string>
+		</dict>
+		<key>EBCC3B7C-55DE-4299-B68C-9049C11217CA</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>EBCC3B7C-55DE-4299-B68C-9049C11217CA.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>mvc_to_mvvm_demo project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>mvc_to_mvvm_demo</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>0</integer>
+			<key>signature</key>
+			<string>Convert mvc_to_mvvm_demo</string>
+			<key>timeStartedRecording</key>
+			<real>560742768.27033699</real>
+			<key>timeStoppedRecording</key>
+			<real>560742776.39245999</real>
+			<key>title</key>
+			<string>Convert mvc_to_mvvm_demo</string>
+			<key>uniqueIdentifier</key>
+			<string>EBCC3B7C-55DE-4299-B68C-9049C11217CA</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

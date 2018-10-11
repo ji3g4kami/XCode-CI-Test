@@ -1,0 +1,18 @@
+Test Suite 'Selected tests' started at 2018-10-11 09:45:53.687
+Test Suite 'mvc_to_mvvm_demoTests.xctest' started at 2018-10-11 09:45:53.689
+Test Suite 'mvc_to_mvvm_demoTests' started at 2018-10-11 09:45:53.689
+Test Case '-[mvc_to_mvvm_demoTests.mvc_to_mvvm_demoTests testCourseViewModel]' started.
+Test Case '-[mvc_to_mvvm_demoTests.mvc_to_mvvm_demoTests testCourseViewModel]' passed (0.004 seconds).
+Test Case '-[mvc_to_mvvm_demoTests.mvc_to_mvvm_demoTests testCourseViewModelLessonsOverThreshold]' started.
+Test Case '-[mvc_to_mvvm_demoTests.mvc_to_mvvm_demoTests testCourseViewModelLessonsOverThreshold]' passed (0.000 seconds).
+Test Suite 'mvc_to_mvvm_demoTests' passed at 2018-10-11 09:45:53.694.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 0.004 (0.005) seconds
+Test Suite 'mvc_to_mvvm_demoTests.xctest' passed at 2018-10-11 09:45:53.695.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 0.004 (0.005) seconds
+Test Suite 'Selected tests' passed at 2018-10-11 09:45:53.695.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 0.004 (0.008) seconds
+
+
+Test session results and logs:
+	/Users/udn/Downloads/mvc_to_mvvm_demo_starter/DerivedData/mvc_to_mvvm_demo/Logs/Test/Test-mvc_to_mvvm_demo-2018.10.11_09-45-35-+0800.xcresult
+

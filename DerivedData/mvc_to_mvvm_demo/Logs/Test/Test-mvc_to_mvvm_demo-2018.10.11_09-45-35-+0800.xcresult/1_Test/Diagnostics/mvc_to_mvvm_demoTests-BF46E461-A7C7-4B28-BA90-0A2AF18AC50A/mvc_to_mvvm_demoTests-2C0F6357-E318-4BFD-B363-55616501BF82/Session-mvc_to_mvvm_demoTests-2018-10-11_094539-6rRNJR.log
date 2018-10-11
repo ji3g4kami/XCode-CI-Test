@@ -1,0 +1,228 @@
+09:45:39.867 Xcode[292:3065] Beginning test session mvc_to_mvvm_demoTests-C05964C4-B87B-49C1-A9F6-31BA67FFB06F at 2018-10-11 09:45:39.865 with Xcode 10A255 on target <DVTiPhoneSimulator: 0x7faed4a551f0> {
+		SimDevice: iPhone X (AD0B8FEC-98B1-4F7F-8FBE-BA4B781D8C5A, iOS 12.0, Booted)
+} (12.0 (16A366))
+09:45:39.867 Xcode[292:3065] Launching with Xcode.DebuggerFoundation.Launcher.LLDB
+09:45:39.878 Xcode[292:3065] Test standard output and standard error is at /Users/udn/Downloads/mvc_to_mvvm_demo_starter/DerivedData/mvc_to_mvvm_demo/Logs/Test/Test-mvc_to_mvvm_demo-2018.10.11_09-45-35-+0800.xcresult/1_Test/Diagnostics/mvc_to_mvvm_demoTests-BF46E461-A7C7-4B28-BA90-0A2AF18AC50A/mvc_to_mvvm_demoTests-2C0F6357-E318-4BFD-B363-55616501BF82/StandardOutputAndStandardError.txt
+09:45:40.128 Xcode[292:3065] Launch session started.
+09:45:40.218 Xcode[292:3065] Setting up test runner session
+09:45:40.218 Xcode[292:3452975] Sim iPhone X: Unregistering for sim device notification with token 470
+09:45:40.218 Xcode[292:3452975] Calling -[SimDevice getenv:error:] for TESTMANAGERD_SIM_SOCK
+09:45:40.219 Xcode[292:3452975] Sim iPhone X has testmanagerd socket at /private/tmp/com.apple.launchd.LDc8erzEjw/com.apple.testmanagerd.unix-domain.socket
+09:45:40.219 Xcode[292:3452975] Validating test connection socket path (/private/tmp/com.apple.launchd.LDc8erzEjw/com.apple.testmanagerd.unix-domain.socket)
+09:45:40.219 Xcode[292:3452975] Constructing transport for test connection socket
+09:45:40.219 Xcode[292:3452975] Connected socket 105 to testmanagerd for Sim iPhone X
+09:45:40.220 Xcode[292:3452983] Received connection for test runner session
+09:45:40.220 Xcode[292:3452983] Listening for proxy connection request from the test bundle
+09:45:40.221 Xcode[292:3452983] Initiating session with identifier: C05964C4-B87B-49C1-A9F6-31BA67FFB06F
+09:45:40.239 Xcode[292:3065] Sending notification: NSConcreteNotification 0x7faed9e49810 {name = com.apple.iphonesimulator.startSession; userInfo = {
+    deviceUDID = "AD0B8FEC-98B1-4F7F-8FBE-BA4B781D8C5A";
+}}
+09:45:40.241 Xcode[292:3452985] 📱<DVTiPhoneSimulator (0x7faed4a551f0), iPhone X, unknown class, 12.0 (16A366), AD0B8FEC-98B1-4F7F-8FBE-BA4B781D8C5A> simulator was claimed by LaunchSessionClaim_0x7faec32253f0
+09:45:40.335 Xcode[292:3065] Sending notification: NSConcreteNotification 0x7faedf6b5fc0 {name = com.apple.iphonesimulator.startSession; userInfo = {
+    deviceUDID = "AD0B8FEC-98B1-4F7F-8FBE-BA4B781D8C5A";
+}}
+09:45:40.335 Xcode[292:3065] Test runner session acquired connection.
+09:45:40.335 Xcode[292:3452983] 📱<DVTiPhoneSimulator (0x7faed4a551f0), iPhone X, unknown class, 12.0 (16A366), AD0B8FEC-98B1-4F7F-8FBE-BA4B781D8C5A> simulator was claimed by LaunchSessionClaim_0x7faec32253f0
+09:45:40.335 Xcode[292:3065] Waiting for test process to launch.
+09:45:40.336 Xcode[292:3452983] AD0B8FEC-98B1-4F7F-8FBE-BA4B781D8C5A: Registered for sim device notification, got token 472
+09:45:40.337 Xcode[292:3452983] AD0B8FEC-98B1-4F7F-8FBE-BA4B781D8C5A: Unregistering for sim device notification with token 472
+09:45:40.339 Xcode[292:3452983] AD0B8FEC-98B1-4F7F-8FBE-BA4B781D8C5A: Installing app at path: /Users/udn/Downloads/mvc_to_mvvm_demo_starter/DerivedData/mvc_to_mvvm_demo/Build/Products/Debug-iphonesimulator/mvc_to_mvvm_demo.app and options: (null)
+09:45:42.397 Xcode[292:3452983] AD0B8FEC-98B1-4F7F-8FBE-BA4B781D8C5A: Installed app at path: /Users/udn/Downloads/mvc_to_mvvm_demo_starter/DerivedData/mvc_to_mvvm_demo/Build/Products/Debug-iphonesimulator/mvc_to_mvvm_demo.app and options: (null)
+09:45:42.398 Xcode[292:3452983] AD0B8FEC-98B1-4F7F-8FBE-BA4B781D8C5A: Launching app with identifier: com.letsbuildthatapp.mvc-to-mvvm-demo and options: {
+    "activate_suspended" = 0;
+    arguments =     (
+        "-NSTreatUnknownArgumentsAsOpen",
+        NO,
+        "-ApplePersistenceIgnoreState",
+        YES
+    );
+    environment =     {
+        "CA_ASSERT_MAIN_THREAD_TRANSACTIONS" = 0;
+        "CA_DEBUG_TRANSACTIONS" = 0;
+        "DYLD_FRAMEWORK_PATH" = "/Users/udn/Downloads/mvc_to_mvvm_demo_starter/DerivedData/mvc_to_mvvm_demo/Build/Products/Debug-iphonesimulator:";
+        "DYLD_INSERT_LIBRARIES" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/Developer/Library/PrivateFrameworks/DTDDISupport.framework/libViewDebuggerSupport.dylib:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib/libXCTestBundleInject.dylib:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/lib/libMainThreadChecker.dylib";
+        "DYLD_LIBRARY_PATH" = "/Users/udn/Downloads/mvc_to_mvvm_demo_starter/DerivedData/mvc_to_mvvm_demo/Build/Products/Debug-iphonesimulator";
+        "MTC_CRASH_ON_REPORT" = 1;
+        NSUnbufferedIO = YES;
+        "OS_ACTIVITY_DT_MODE" = YES;
+        "SQLITE_ENABLE_THREAD_ASSERTIONS" = 1;
+        XCInjectBundleInto = "/Users/udn/Downloads/mvc_to_mvvm_demo_starter/DerivedData/mvc_to_mvvm_demo/Build/Products/Debug-iphonesimulator/mvc_to_mvvm_demo.app/mvc_to_mvvm_demo";
+        XCTestConfigurationFilePath = "/Users/udn/Downloads/mvc_to_mvvm_demo_starter/DerivedData/mvc_to_mvvm_demo/Logs/Test/Test-mvc_to_mvvm_demo-2018.10.11_09-45-35-+0800.xcresult/1_Test/Diagnostics/mvc_to_mvvm_demoTests-BF46E461-A7C7-4B28-BA90-0A2AF18AC50A/mvc_to_mvvm_demoTests-2C0F6357-E318-4BFD-B363-55616501BF82/LaunchSessions/C05964C4-B87B-49C1-A9F6-31BA67FFB06F/remote-container/tmp/mvc_to_mvvm_demoTests-C05964C4-B87B-49C1-A9F6-31BA67FFB06F.xctestconfiguration";
+        "__XCODE_BUILT_PRODUCTS_DIR_PATHS" = "/Users/udn/Downloads/mvc_to_mvvm_demo_starter/DerivedData/mvc_to_mvvm_demo/Build/Products/Debug-iphonesimulator";
+        "__XPC_DYLD_FRAMEWORK_PATH" = "/Users/udn/Downloads/mvc_to_mvvm_demo_starter/DerivedData/mvc_to_mvvm_demo/Build/Products/Debug-iphonesimulator";
+        "__XPC_DYLD_LIBRARY_PATH" = "/Users/udn/Downloads/mvc_to_mvvm_demo_starter/DerivedData/mvc_to_mvvm_demo/Build/Products/Debug-iphonesimulator";
+    };
+    stderr = "/dev/ttys003";
+    stdout = "/dev/ttys003";
+    "wait_for_debugger" = 1;
+}
+09:45:45.494 Xcode[292:3452983] AD0B8FEC-98B1-4F7F-8FBE-BA4B781D8C5A: Launched app with identifier: com.letsbuildthatapp.mvc-to-mvvm-demo (pid = 59683)
+09:45:45.494 Xcode[292:3452983] 📱<DVTiPhoneSimulator (0x7faed4a551f0), iPhone X, unknown class, 12.0 (16A366), AD0B8FEC-98B1-4F7F-8FBE-BA4B781D8C5A> tracking pid 59683
+09:45:45.494 Xcode[292:3452983] 📱<DVTiPhoneSimulator (0x7faed4a551f0), iPhone X, unknown class, 12.0 (16A366), AD0B8FEC-98B1-4F7F-8FBE-BA4B781D8C5A> checking to see if pid 59683 is valid: kill(pid, 0) = 0 (YES, it's still running)
+09:45:45.501 Xcode[292:3065] Test process runnable PID is 59683.
+09:45:47.850 Xcode[292:3065] Waiting for test process to check in..., will wait up to 120s
+09:45:53.092 Xcode[292:3452975] Got reply to session initiation request with identifier C05964C4-B87B-49C1-A9F6-31BA67FFB06F (result:error): 29: (null)
+09:45:53.095 Xcode[292:3452976] Handling proxy channel request from test runner
+09:45:53.102 Xcode[292:3452976] Test runner is ready, running protocol 29, requires at least version 7. Control framework is running 29 and requires at least 7
+09:45:53.102 Xcode[292:3065] Test runner session successfully initiated.
+09:45:53.102 Xcode[292:3065] Whitelisting test process ID 59683
+09:45:53.677 Xcode[292:3065] Got whitelisting response from test daemon: Success
+09:45:53.679 Xcode[292:3065] Registering/updating daemon-based crash report observer for process names (
+    SpringBoard,
+    backboardd,
+    xctest,
+    "mvc_to_mvvm_demo"
+)
+09:45:53.681 Xcode[292:3065] Telling test runner to start executing tests.
+09:45:52.669 mvc_to_mvvm_demo[59683:3453537] Linked XCTest.framework from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/XCTest, built with Xcode 1000(10A242), modified on Wednesday, September 12, 2018 at 6:30:58 AM Taipei Standard Time
+XCTest.framework bundle version: 14302.9
+09:45:52.708 mvc_to_mvvm_demo[59683:3453537] System uptime: 2d 20:59:28
+09:45:52.708 mvc_to_mvvm_demo[59683:3453537] Process arguments: (
+    "/Users/udn/Library/Developer/CoreSimulator/Devices/AD0B8FEC-98B1-4F7F-8FBE-BA4B781D8C5A/data/Containers/Bundle/Application/C8E42579-A5F5-4922-A78B-6AB9178131B3/mvc_to_mvvm_demo.app/mvc_to_mvvm_demo",
+    "-NSTreatUnknownArgumentsAsOpen",
+    NO,
+    "-ApplePersistenceIgnoreState",
+    YES
+)
+09:45:52.708 mvc_to_mvvm_demo[59683:3453537] Process environment: {
+    "CA_ASSERT_MAIN_THREAD_TRANSACTIONS" = 0;
+    "CA_DEBUG_TRANSACTIONS" = 0;
+    "CFFIXED_USER_HOME" = "/Users/udn/Library/Developer/CoreSimulator/Devices/AD0B8FEC-98B1-4F7F-8FBE-BA4B781D8C5A/data/Containers/Data/Application/39C847FC-44C0-406D-9DE7-B2D49CD81A2D";
+    CLASSIC = 0;
+    "CUPS_SERVER" = "/private/tmp/com.apple.launchd.kKK2qSOb3o/Listeners";
+    "DYLD_FALLBACK_FRAMEWORK_PATH" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/Frameworks";
+    "DYLD_FALLBACK_LIBRARY_PATH" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/lib";
+    "DYLD_FRAMEWORK_PATH" = "/Users/udn/Downloads/mvc_to_mvvm_demo_starter/DerivedData/mvc_to_mvvm_demo/Build/Products/Debug-iphonesimulator:";
+    "DYLD_LIBRARY_PATH" = "/Users/udn/Downloads/mvc_to_mvvm_demo_starter/DerivedData/mvc_to_mvvm_demo/Build/Products/Debug-iphonesimulator";
+    "DYLD_ROOT_PATH" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot";
+    HOME = "/Users/udn/Library/Developer/CoreSimulator/Devices/AD0B8FEC-98B1-4F7F-8FBE-BA4B781D8C5A/data/Containers/Data/Application/39C847FC-44C0-406D-9DE7-B2D49CD81A2D";
+    "IOS_SIMULATOR_SYSLOG_SOCKET" = "/tmp/com.apple.CoreSimulator.SimDevice.AD0B8FEC-98B1-4F7F-8FBE-BA4B781D8C5A/syslogsock";
+    "IPHONE_SHARED_RESOURCES_DIRECTORY" = "/Users/udn/Library/Developer/CoreSimulator/Devices/AD0B8FEC-98B1-4F7F-8FBE-BA4B781D8C5A/data";
+    "IPHONE_SIMULATOR_ROOT" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot";
+    "IPHONE_TVOUT_EXTENDED_PROPERTIES" = "/Users/udn/Library/Developer/CoreSimulator/Devices/AD0B8FEC-98B1-4F7F-8FBE-BA4B781D8C5A/data/Library/Application Support/Simulator/extended_display.plist";
+    "MTC_CRASH_ON_REPORT" = 1;
+    NSUnbufferedIO = YES;
+    "OS_ACTIVITY_DT_MODE" = YES;
+    PATH = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/sbin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/sbin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/local/bin";
+    "RWI_LISTEN_SOCKET" = "/private/tmp/com.apple.launchd.teJqFZQYX3/com.apple.webinspectord_sim.socket";
+    "SIMULATOR_AUDIO_DEVICES_PLIST_PATH" = "/Users/udn/Library/Developer/CoreSimulator/Devices/AD0B8FEC-98B1-4F7F-8FBE-BA4B781D8C5A/data/var/run/com.apple.coresimulator.audio.plist";
+    "SIMULATOR_AUDIO_SETTINGS_PATH" = "/Users/udn/Library/Developer/CoreSimulator/Devices/AD0B8FEC-98B1-4F7F-8FBE-BA4B781D8C5A/data/var/run/simulatoraudio/audiosettings.plist";
+    "SIMULATOR_BOOT_TIME" = 1538973984;
+    "SIMULATOR_CAPABILITIES" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/DeviceTypes/iPhone X.simdevicetype/Contents/Resources/capabilities.plist";
+    "SIMULATOR_DEVICE_NAME" = "iPhone X";
+    "SIMULATOR_EXTENDED_DISPLAY_PROPERTIES" = "/Users/udn/Library/Developer/CoreSimulator/Devices/AD0B8FEC-98B1-4F7F-8FBE-BA4B781D8C5A/data/Library/Application Support/Simulator/extended_display.plist";
+    "SIMULATOR_HID_SYSTEM_MANAGER" = "/Library/Developer/PrivateFrameworks/CoreSimulator.framework/Resources/Platforms/iphoneos/Library/Frameworks/SimulatorHID.framework";
+    "SIMULATOR_HOST_HOME" = "/Users/udn";
+    "SIMULATOR_LEGACY_ASSET_SUFFIX" = iphone;
+    "SIMULATOR_LOG_ROOT" = "/Users/udn/Library/Logs/CoreSimulator/AD0B8FEC-98B1-4F7F-8FBE-BA4B781D8C5A";
+    "SIMULATOR_MAINSCREEN_HEIGHT" = 2436;
+    "SIMULATOR_MAINSCREEN_PITCH" = "458.000000";
+    "SIMULATOR_MAINSCREEN_SCALE" = "3.000000";
+    "SIMULATOR_MAINSCREEN_WIDTH" = 1125;
+    "SIMULATOR_MEMORY_WARNINGS" = "/Users/udn/Library/Developer/CoreSimulator/Devices/AD0B8FEC-98B1-4F7F-8FBE-BA4B781D8C5A/data/var/run/memory_warning_simulation";
+    "SIMULATOR_MODEL_IDENTIFIER" = "iPhone10,6";
+    "SIMULATOR_PRODUCT_CLASS" = D22;
+    "SIMULATOR_ROOT" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot";
+    "SIMULATOR_RUNTIME_BUILD_VERSION" = 16A366;
+    "SIMULATOR_RUNTIME_VERSION" = "12.0";
+    "SIMULATOR_SHARED_RESOURCES_DIRECTORY" = "/Users/udn/Library/Developer/CoreSimulator/Devices/AD0B8FEC-98B1-4F7F-8FBE-BA4B781D8C5A/data";
+    "SIMULATOR_UDID" = "AD0B8FEC-98B1-4F7F-8FBE-BA4B781D8C5A";
+    "SIMULATOR_VERSION_INFO" = "CoreSimulator 572.2 - Device: iPhone X - Runtime: iOS 12.0 (16A366) - DeviceType: iPhone X";
+    "SQLITE_ENABLE_THREAD_ASSERTIONS" = 1;
+    "TESTMANAGERD_SIM_SOCK" = "/private/tmp/com.apple.launchd.LDc8erzEjw/com.apple.testmanagerd.unix-domain.socket";
+    TMPDIR = "/Users/udn/Library/Developer/CoreSimulator/Devices/AD0B8FEC-98B1-4F7F-8FBE-BA4B781D8C5A/data/Containers/Data/Application/39C847FC-44C0-406D-9DE7-B2D49CD81A2D/tmp";
+    XCInjectBundleInto = "/Users/udn/Downloads/mvc_to_mvvm_demo_starter/DerivedData/mvc_to_mvvm_demo/Build/Products/Debug-iphonesimulator/mvc_to_mvvm_demo.app/mvc_to_mvvm_demo";
+    XCTestConfigurationFilePath = "/Users/udn/Downloads/mvc_to_mvvm_demo_starter/DerivedData/mvc_to_mvvm_demo/Logs/Test/Test-mvc_to_mvvm_demo-2018.10.11_09-45-35-+0800.xcresult/1_Test/Diagnostics/mvc_to_mvvm_demoTests-BF46E461-A7C7-4B28-BA90-0A2AF18AC50A/mvc_to_mvvm_demoTests-2C0F6357-E318-4BFD-B363-55616501BF82/LaunchSessions/C05964C4-B87B-49C1-A9F6-31BA67FFB06F/remote-container/tmp/mvc_to_mvvm_demoTests-C05964C4-B87B-49C1-A9F6-31BA67FFB06F.xctestconfiguration";
+    "XPC_FLAGS" = 0x0;
+    "XPC_SERVICE_NAME" = "UIKitApplication:com.letsbuildthatapp.mvc-to-mvvm-demo[0xd608][3657]";
+    "XPC_SIMULATOR_LAUNCHD_NAME" = "com.apple.CoreSimulator.SimDevice.AD0B8FEC-98B1-4F7F-8FBE-BA4B781D8C5A";
+    "__XCODE_BUILT_PRODUCTS_DIR_PATHS" = "/Users/udn/Downloads/mvc_to_mvvm_demo_starter/DerivedData/mvc_to_mvvm_demo/Build/Products/Debug-iphonesimulator";
+    "__XPC_DYLD_FRAMEWORK_PATH" = "/Users/udn/Downloads/mvc_to_mvvm_demo_starter/DerivedData/mvc_to_mvvm_demo/Build/Products/Debug-iphonesimulator";
+    "__XPC_DYLD_LIBRARY_PATH" = "/Users/udn/Downloads/mvc_to_mvvm_demo_starter/DerivedData/mvc_to_mvvm_demo/Build/Products/Debug-iphonesimulator";
+}
+09:45:52.709 mvc_to_mvvm_demo[59683:3453537] App Sandbox active: NO
+09:45:52.709 mvc_to_mvvm_demo[59683:3453537] Loading test bundle at: file:///Users/udn/Downloads/mvc_to_mvvm_demo_starter/DerivedData/mvc_to_mvvm_demo/Build/Products/Debug-iphonesimulator/mvc_to_mvvm_demo.app/PlugIns/mvc_to_mvvm_demoTests.xctest/
+09:45:52.709 mvc_to_mvvm_demo[59683:3453537] Finished loading test bundle
+09:45:52.709 mvc_to_mvvm_demo[59683:3453537] Readying IDE session
+09:45:52.711 mvc_to_mvvm_demo[59683:3453537] Creating future for 'Exchange protocol versions with daemon' with timeout 15.00
+09:45:52.713 mvc_to_mvvm_demo[59683:3453537] <XCTWaiter: 0x60000101d4b0, state: XCTWaiterStateInProgress> entering wait loop for 15.00s with expectations: `Exchange protocol versions with daemon`
+09:45:53.088 mvc_to_mvvm_demo[59683:3454137] <XCTWaiter: 0x60000101d4b0, state: XCTWaiterStateSucceeded>: cancelWaiting
+09:45:53.088 mvc_to_mvvm_demo[59683:3453537] <XCTWaiter: 0x60000101d4b0, state: XCTWaiterStateSucceeded> done waiting
+09:45:53.088 mvc_to_mvvm_demo[59683:3453537] Canceling watchdog for <XCTWaiter: 0x60000101d4b0, state: XCTWaiterStateInProgress>.
+09:45:53.088 mvc_to_mvvm_demo[59683:3453537] <XCTWaiter: 0x60000101d4b0, state: XCTWaiterStateSucceeded> cleaning up `Exchange protocol versions with daemon`
+09:45:53.089 mvc_to_mvvm_demo[59683:3453537] Got daemon protocol version 26
+09:45:53.089 mvc_to_mvvm_demo[59683:3453537] Requesting IDE connection transport
+09:45:53.089 mvc_to_mvvm_demo[59683:3453537] <XCTWaiter: 0x600001008c30, state: XCTWaiterStateInProgress> entering wait loop for 60.00s with expectations: `Transport for IDE session acquired`
+09:45:53.093 mvc_to_mvvm_demo[59683:3454137] Creating transport with received transport data
+09:45:53.093 mvc_to_mvvm_demo[59683:3454137] <XCTWaiter: 0x600001008c30, state: XCTWaiterStateSucceeded>: cancelWaiting
+09:45:53.094 mvc_to_mvvm_demo[59683:3453537] <XCTWaiter: 0x600001008c30, state: XCTWaiterStateSucceeded> done waiting
+09:45:53.094 mvc_to_mvvm_demo[59683:3453537] Canceling watchdog for <XCTWaiter: 0x600001008c30, state: XCTWaiterStateInProgress>.
+09:45:53.094 mvc_to_mvvm_demo[59683:3453537] <XCTWaiter: 0x600001008c30, state: XCTWaiterStateSucceeded> cleaning up `Transport for IDE session acquired`
+09:45:53.094 mvc_to_mvvm_demo[59683:3453537] Creating connection with transport <DTXFileDescriptorTransport: 0x600003c1b280>
+09:45:53.094 mvc_to_mvvm_demo[59683:3453537] Creating the proxy channel with connection <DTXConnection 0x600002e00b00 : x1>
+09:45:53.094 mvc_to_mvvm_demo[59683:3453537] Creating future for 'IDE session ready for test plan' with timeout 60.00
+09:45:53.094 mvc_to_mvvm_demo[59683:3453537] Messaging IDE proxy - _XCT_testBundleReadyWithProtocolVersion:29 minimumVersion:7
+09:45:53.095 mvc_to_mvvm_demo[59683:3453537] <XCTWaiter: 0x600001008d10, state: XCTWaiterStateInProgress> entering wait loop for 60.00s with expectations: `IDE session ready for test plan`
+09:45:53.102 mvc_to_mvvm_demo[59683:3454136] _XCT_testBundleReadyWithProtocolVersion:minimumVersion: reply received
+09:45:53.683 mvc_to_mvvm_demo[59683:3454137] _IDE_startExecutingTestPlanWithProtocolVersion:29
+09:45:53.683 mvc_to_mvvm_demo[59683:3454137] <XCTWaiter: 0x600001008d10, state: XCTWaiterStateSucceeded>: cancelWaiting
+09:45:53.683 mvc_to_mvvm_demo[59683:3453537] <XCTWaiter: 0x600001008d10, state: XCTWaiterStateSucceeded> done waiting
+09:45:53.683 mvc_to_mvvm_demo[59683:3453537] Canceling watchdog for <XCTWaiter: 0x600001008d10, state: XCTWaiterStateInProgress>.
+09:45:53.683 mvc_to_mvvm_demo[59683:3453537] <XCTWaiter: 0x600001008d10, state: XCTWaiterStateSucceeded> cleaning up `IDE session ready for test plan`
+09:45:53.687 Xcode[292:3065] Starting test plan, clearing initialization timeout timer.
+09:45:53.686 mvc_to_mvvm_demo[59683:3453537] Entering test execution event loop
+09:45:53.686 mvc_to_mvvm_demo[59683:3453537] -[XCTRunnerIDESession testBundleWillStart:]
+09:45:53.686 mvc_to_mvvm_demo[59683:3453537] Loading test suite...
+09:45:53.687 mvc_to_mvvm_demo[59683:3453537] Finished loading test suite, took 0.001s
+09:45:53.687 mvc_to_mvvm_demo[59683:3453537] Running suite...
+Test Suite 'Selected tests' started at 2018-10-11 09:45:53.687
+09:45:53.689 mvc_to_mvvm_demo[59683:3453537] -[XCTRunnerIDESession testSuiteWillStart:]
+09:45:53.694 Xcode[292:3065] _XCT_testSuite:Selected tests didStartAt:2018-10-11 01:45:53 +0000
+09:45:53.689 mvc_to_mvvm_demo[59683:3453537] -[XCTRunnerIDESession testSuiteWillStart:]
+09:45:53.695 Xcode[292:3065] _XCT_testSuite:mvc_to_mvvm_demoTests.xctest didStartAt:2018-10-11 01:45:53 +0000
+09:45:53.689 mvc_to_mvvm_demo[59683:3453537] -[XCTRunnerIDESession testSuiteWillStart:]
+09:45:53.695 Xcode[292:3065] _XCT_testSuite:mvc_to_mvvm_demoTests didStartAt:2018-10-11 01:45:53 +0000
+09:45:53.695 Xcode[292:3065] _XCT_testCaseDidStartForTestClass:mvc_to_mvvm_demoTests.mvc_to_mvvm_demoTests method:testCourseViewModel
+09:45:53.690 mvc_to_mvvm_demo[59683:3453537] -[XCTRunnerIDESession testCaseWillStart:] mvc_to_mvvm_demoTests.mvc_to_mvvm_demoTests testCourseViewModel
+09:45:53.693 mvc_to_mvvm_demo[59683:3453537] -[XCTRunnerIDESession testCaseDidFinish:]
+Test Suite 'mvc_to_mvvm_demoTests.xctest' started at 2018-10-11 09:45:53.689
+Test Suite 'mvc_to_mvvm_demoTests' started at 2018-10-11 09:45:53.689
+Test Case '-[mvc_to_mvvm_demoTests.mvc_to_mvvm_demoTests testCourseViewModel]' started.
+Test Case '-[mvc_to_mvvm_demoTests.mvc_to_mvvm_demoTests testCourseViewModel]' passed (0.004 seconds).
+Test Case '-[mvc_to_mvvm_demoTests.mvc_to_mvvm_demoTests testCourseViewModelLessonsOverThreshold]' started.
+Test Case '-[mvc_to_mvvm_demoTests.mvc_to_mvvm_demoTests testCourseViewModelLessonsOverThreshold]' passed (0.000 seconds).
+Test Suite 'mvc_to_mvvm_demoTests' passed at 2018-10-11 09:45:53.694.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 0.004 (0.005) seconds
+Test Suite 'mvc_to_mvvm_demoTests.xctest' passed at 2018-10-11 09:45:53.695.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 0.004 (0.005) seconds
+Test Suite 'Selected tests' passed at 2018-10-11 09:45:53.695.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 0.004 (0.008) seconds
+09:45:53.712 Xcode[292:3065] _XCT_testCaseDidFinishForTestClass:mvc_to_mvvm_demoTests.mvc_to_mvvm_demoTests method:testCourseViewModel withStatus:passed duration:0.003733038902282715
+09:45:53.694 mvc_to_mvvm_demo[59683:3453537] -[XCTRunnerIDESession testCaseWillStart:] mvc_to_mvvm_demoTests.mvc_to_mvvm_demoTests testCourseViewModelLessonsOverThreshold
+09:45:53.712 Xcode[292:3065] _XCT_testCaseDidStartForTestClass:mvc_to_mvvm_demoTests.mvc_to_mvvm_demoTests method:testCourseViewModelLessonsOverThreshold
+09:45:53.694 mvc_to_mvvm_demo[59683:3453537] -[XCTRunnerIDESession testCaseDidFinish:]
+09:45:53.712 Xcode[292:3065] _XCT_testCaseDidFinishForTestClass:mvc_to_mvvm_demoTests.mvc_to_mvvm_demoTests method:testCourseViewModelLessonsOverThreshold withStatus:passed duration:0.000352025032043457
+09:45:53.694 mvc_to_mvvm_demo[59683:3453537] -[XCTRunnerIDESession testSuiteDidFinish:]
+09:45:53.712 Xcode[292:3065] _XCT_testSuite:mvc_to_mvvm_demoTests didFinishAt:2018-10-11 01:45:53 +0000 runCount:2 withFailures:0 unexpected:0 testDuration:0.004085063934326172 totalDuration:0.004878997802734375
+09:45:53.695 mvc_to_mvvm_demo[59683:3453537] -[XCTRunnerIDESession testSuiteDidFinish:]
+09:45:53.712 Xcode[292:3065] _XCT_testSuite:mvc_to_mvvm_demoTests.xctest didFinishAt:2018-10-11 01:45:53 +0000 runCount:2 withFailures:0 unexpected:0 testDuration:0.004085063934326172 totalDuration:0.005473971366882324
+09:45:53.695 mvc_to_mvvm_demo[59683:3453537] -[XCTRunnerIDESession testSuiteDidFinish:]
+09:45:53.712 Xcode[292:3065] _XCT_testSuite:Selected tests didFinishAt:2018-10-11 01:45:53 +0000 runCount:2 withFailures:0 unexpected:0 testDuration:0.004085063934326172 totalDuration:0.007593035697937012
+09:45:53.695 mvc_to_mvvm_demo[59683:3453537] Finished running suite.
+09:45:53.695 mvc_to_mvvm_demo[59683:3453537] -[XCTRunnerIDESession testBundleDidFinish:], Flushing connection to IDE...
+09:45:53.712 Xcode[292:3065] -[XCTTestRunnerSession _XCT_didFinishExecutingTestPlan]_block_invoke
+09:45:53.695 mvc_to_mvvm_demo[59683:3453537] Exited test execution event loop
+09:45:53.695 mvc_to_mvvm_demo[59683:3453537] Calling completion.
+09:45:53.695 mvc_to_mvvm_demo[59683:3453537] <XCTWaiter: 0x60000101d8e0, state: XCTWaiterStateInProgress> entering wait loop for 15.00s with expectations: `IDE confirmed the end of session`
+09:45:53.726 Xcode[292:3453434] Closing socket 105 to testmanagerd for Sim iPhone X
+09:45:53.779 Xcode[292:3065] Test process exited with exit code 0
+09:45:53.801 Xcode[292:3065] 📱<DVTiPhoneSimulator (0x7faed4a551f0), iPhone X, unknown class, 12.0 (16A366), AD0B8FEC-98B1-4F7F-8FBE-BA4B781D8C5A> claim LaunchSessionClaim_0x7faec32253f0 on simulator was relinquished
+09:45:53.801 Xcode[292:3065] 📱<DVTiPhoneSimulator (0x7faed4a551f0), iPhone X, unknown class, 12.0 (16A366), AD0B8FEC-98B1-4F7F-8FBE-BA4B781D8C5A> claim LaunchSessionClaim_0x7faec32253f0 on simulator was relinquished
+09:45:53.713 mvc_to_mvvm_demo[59683:3454135] <XCTWaiter: 0x60000101d8e0, state: XCTWaiterStateSucceeded>: cancelWaiting
+09:45:53.713 mvc_to_mvvm_demo[59683:3453537] <XCTWaiter: 0x60000101d8e0, state: XCTWaiterStateSucceeded> done waiting
+09:45:53.713 mvc_to_mvvm_demo[59683:3453537] Canceling watchdog for <XCTWaiter: 0x60000101d8e0, state: XCTWaiterStateInProgress>.
+09:45:53.713 mvc_to_mvvm_demo[59683:3453537] <XCTWaiter: 0x60000101d8e0, state: XCTWaiterStateSucceeded> cleaning up `IDE confirmed the end of session`
+09:45:53.861 Xcode[292:3065] 📱<DVTiPhoneSimulator (0x7faed4a551f0), iPhone X, unknown class, 12.0 (16A366), AD0B8FEC-98B1-4F7F-8FBE-BA4B781D8C5A> got death notice for pid 59683, removing from SimulatorSessionMap
+09:45:54.042 Xcode[292:3065] <IDETestOperationCoordinator: 0x7faec9ec0a40> finished receiving data from testing launch session
+09:45:54.042 Xcode[292:3065] <IDETestOperationCoordinator: 0x7faec9ec0a40>: _considerFlushingDelegateBlockQueue - nothing to flush
+09:45:54.042 Xcode[292:3065] _finishWithError:(null)

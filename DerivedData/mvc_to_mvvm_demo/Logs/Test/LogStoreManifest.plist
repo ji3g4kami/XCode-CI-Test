@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>9</integer>
+	<key>logs</key>
+	<dict>
+		<key>E8E3939F-7309-4DC9-97D8-C58EB7017C01</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>B6AB5CE8-41A8-4EA5-A7A3-11E50B869D9E</string>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.unit.cocoaUnitTest</string>
+			<key>fileName</key>
+			<string>Test-mvc_to_mvvm_demo-2018.10.11_09-45-35-+0800.xcresult</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>mvc_to_mvvm_demo project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>mvc_to_mvvm_demo</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>0</integer>
+			<key>signature</key>
+			<string>Test mvc_to_mvvm_demo</string>
+			<key>timeStartedRecording</key>
+			<real>560915135.76962805</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Test mvc_to_mvvm_demo</string>
+			<key>uniqueIdentifier</key>
+			<string>E8E3939F-7309-4DC9-97D8-C58EB7017C01</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

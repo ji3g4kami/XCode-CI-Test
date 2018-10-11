@@ -1,0 +1,10 @@
+09:45:39.852 Xcode[292:3452558] Sim iPhone X has testmanagerd socket at /private/tmp/com.apple.launchd.LDc8erzEjw/com.apple.testmanagerd.unix-domain.socket
+09:45:39.852 Xcode[292:3452558] Validating test connection socket path (/private/tmp/com.apple.launchd.LDc8erzEjw/com.apple.testmanagerd.unix-domain.socket)
+09:45:39.852 Xcode[292:3452558] Constructing transport for test connection socket
+09:45:39.853 Xcode[292:3452558] Connected socket 76 to testmanagerd for Sim iPhone X
+09:45:39.858 Xcode[292:3452976] Initiating control session with controller protocol version 29
+09:45:53.091 Xcode[292:3452984] Got reply to control session initiation request (result:error): 29: (null)
+09:45:53.091 Xcode[292:3452984] Completed protocol exchange, test daemon is running v29.
+09:45:53.102 Xcode[292:3452976] Got authorization request for pid 59683
+09:45:53.102 Xcode[292:3452984] Requesting authorization for pid 59683
+09:45:53.675 Xcode[292:3452984] Got reply to authorization request for pid 59683 (result:error): 1: (null)

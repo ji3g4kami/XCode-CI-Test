@@ -1,0 +1,11 @@
+version: "Apple Swift version 4.2 (swiftlang-1000.11.37.1 clang-1000.11.45.1)"
+options: "1c91ca970005ffb3d52801cb4c41333e"
+build_time: [1539050652, 211404000]
+inputs:
+  "/Users/udn/Downloads/mvc_to_mvvm_demo_starter/mvc_to_mvvm_demo/Controller/CoursesController.swift": [1539049987, 0]
+  "/Users/udn/Downloads/mvc_to_mvvm_demo_starter/mvc_to_mvvm_demo/Model/Course.swift": [1530390352, 0]
+  "/Users/udn/Downloads/mvc_to_mvvm_demo_starter/mvc_to_mvvm_demo/ViewModel/CourseViewModel.swift": [1539049987, 0]
+  "/Users/udn/Downloads/mvc_to_mvvm_demo_starter/mvc_to_mvvm_demo/Service/Service.swift": [1539050652, 0]
+  "/Users/udn/Downloads/mvc_to_mvvm_demo_starter/mvc_to_mvvm_demo/ViewController.swift": [1530647749, 0]
+  "/Users/udn/Downloads/mvc_to_mvvm_demo_starter/mvc_to_mvvm_demo/AppDelegate.swift": [1539049987, 0]
+  "/Users/udn/Downloads/mvc_to_mvvm_demo_starter/mvc_to_mvvm_demo/View/CourseCell.swift": [1539049987, 0]

@@ -12,7 +12,23 @@
 		C7E6217320EC0C45005BFCFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7E6217120EC0C45005BFCFC /* Main.storyboard */; };
 		C7E6217520EC0C45005BFCFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7E6217420EC0C45005BFCFC /* Assets.xcassets */; };
 		C7E6217820EC0C45005BFCFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7E6217620EC0C45005BFCFC /* LaunchScreen.storyboard */; };
+		C7E6219220EC0CBF005BFCFC /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E6219120EC0CBF005BFCFC /* Course.swift */; };
+		C7E6219420EC0CC4005BFCFC /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E6219320EC0CC4005BFCFC /* Service.swift */; };
+		C7E6219620EC0CC8005BFCFC /* CourseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E6219520EC0CC8005BFCFC /* CourseCell.swift */; };
+		C7E6219820EC0CCB005BFCFC /* CoursesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E6219720EC0CCB005BFCFC /* CoursesController.swift */; };
+		C7E621AD20EC3CAB005BFCFC /* CourseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E621AC20EC3CAB005BFCFC /* CourseViewModel.swift */; };
+		C7E621B520EC3FD0005BFCFC /* mvc_to_mvvm_demoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E621B420EC3FD0005BFCFC /* mvc_to_mvvm_demoTests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C7E621B720EC3FD0005BFCFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7E6216220EC0C44005BFCFC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7E6216920EC0C44005BFCFC;
+			remoteInfo = mvc_to_mvvm_demo;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		C7E6216A20EC0C44005BFCFC /* mvc_to_mvvm_demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mvc_to_mvvm_demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -22,10 +38,25 @@
 		C7E6217420EC0C45005BFCFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C7E6217720EC0C45005BFCFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C7E6217920EC0C45005BFCFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7E6219120EC0CBF005BFCFC /* Course.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
+		C7E6219320EC0CC4005BFCFC /* Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		C7E6219520EC0CC8005BFCFC /* CourseCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CourseCell.swift; sourceTree = "<group>"; };
+		C7E6219720EC0CCB005BFCFC /* CoursesController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoursesController.swift; sourceTree = "<group>"; };
+		C7E621AC20EC3CAB005BFCFC /* CourseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseViewModel.swift; sourceTree = "<group>"; };
+		C7E621B220EC3FD0005BFCFC /* mvc_to_mvvm_demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mvc_to_mvvm_demoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7E621B420EC3FD0005BFCFC /* mvc_to_mvvm_demoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mvc_to_mvvm_demoTests.swift; sourceTree = "<group>"; };
+		C7E621B620EC3FD0005BFCFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		C7E6216720EC0C44005BFCFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7E621AF20EC3FD0005BFCFC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,6 +70,7 @@
 			isa = PBXGroup;
 			children = (
 				C7E6216C20EC0C44005BFCFC /* mvc_to_mvvm_demo */,
+				C7E621B320EC3FD0005BFCFC /* mvc_to_mvvm_demoTests */,
 				C7E6216B20EC0C44005BFCFC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,6 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				C7E6216A20EC0C44005BFCFC /* mvc_to_mvvm_demo.app */,
+				C7E621B220EC3FD0005BFCFC /* mvc_to_mvvm_demoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,6 +87,11 @@
 		C7E6216C20EC0C44005BFCFC /* mvc_to_mvvm_demo */ = {
 			isa = PBXGroup;
 			children = (
+				C7E621AB20EC3C99005BFCFC /* ViewModel */,
+				C7E6219020EC0CB3005BFCFC /* Model */,
+				C7E6218F20EC0CB0005BFCFC /* View */,
+				C7E6218E20EC0CAA005BFCFC /* Controller */,
+				C7E6218D20EC0CA2005BFCFC /* Service */,
 				C7E6216D20EC0C45005BFCFC /* AppDelegate.swift */,
 				C7E6216F20EC0C45005BFCFC /* ViewController.swift */,
 				C7E6217120EC0C45005BFCFC /* Main.storyboard */,
@@ -62,6 +100,55 @@
 				C7E6217920EC0C45005BFCFC /* Info.plist */,
 			);
 			path = mvc_to_mvvm_demo;
+			sourceTree = "<group>";
+		};
+		C7E6218D20EC0CA2005BFCFC /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				C7E6219320EC0CC4005BFCFC /* Service.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		C7E6218E20EC0CAA005BFCFC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C7E6219720EC0CCB005BFCFC /* CoursesController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C7E6218F20EC0CB0005BFCFC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C7E6219520EC0CC8005BFCFC /* CourseCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C7E6219020EC0CB3005BFCFC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C7E6219120EC0CBF005BFCFC /* Course.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C7E621AB20EC3C99005BFCFC /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C7E621AC20EC3CAB005BFCFC /* CourseViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C7E621B320EC3FD0005BFCFC /* mvc_to_mvvm_demoTests */ = {
+			isa = PBXGroup;
+			children = (
+				C7E621B420EC3FD0005BFCFC /* mvc_to_mvvm_demoTests.swift */,
+				C7E621B620EC3FD0005BFCFC /* Info.plist */,
+			);
+			path = mvc_to_mvvm_demoTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,6 +171,24 @@
 			productReference = C7E6216A20EC0C44005BFCFC /* mvc_to_mvvm_demo.app */;
 			productType = "com.apple.product-type.application";
 		};
+		C7E621B120EC3FD0005BFCFC /* mvc_to_mvvm_demoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7E621B920EC3FD0005BFCFC /* Build configuration list for PBXNativeTarget "mvc_to_mvvm_demoTests" */;
+			buildPhases = (
+				C7E621AE20EC3FD0005BFCFC /* Sources */,
+				C7E621AF20EC3FD0005BFCFC /* Frameworks */,
+				C7E621B020EC3FD0005BFCFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7E621B820EC3FD0005BFCFC /* PBXTargetDependency */,
+			);
+			name = mvc_to_mvvm_demoTests;
+			productName = mvc_to_mvvm_demoTests;
+			productReference = C7E621B220EC3FD0005BFCFC /* mvc_to_mvvm_demoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -96,6 +201,12 @@
 				TargetAttributes = {
 					C7E6216920EC0C44005BFCFC = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1000;
+					};
+					C7E621B120EC3FD0005BFCFC = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1000;
+						TestTargetID = C7E6216920EC0C44005BFCFC;
 					};
 				};
 			};
@@ -113,6 +224,7 @@
 			projectRoot = "";
 			targets = (
 				C7E6216920EC0C44005BFCFC /* mvc_to_mvvm_demo */,
+				C7E621B120EC3FD0005BFCFC /* mvc_to_mvvm_demoTests */,
 			);
 		};
 /* End PBXProject section */
@@ -128,6 +240,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C7E621B020EC3FD0005BFCFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -135,12 +254,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7E6219820EC0CCB005BFCFC /* CoursesController.swift in Sources */,
+				C7E6219220EC0CBF005BFCFC /* Course.swift in Sources */,
+				C7E621AD20EC3CAB005BFCFC /* CourseViewModel.swift in Sources */,
+				C7E6219420EC0CC4005BFCFC /* Service.swift in Sources */,
 				C7E6217020EC0C45005BFCFC /* ViewController.swift in Sources */,
 				C7E6216E20EC0C45005BFCFC /* AppDelegate.swift in Sources */,
+				C7E6219620EC0CC8005BFCFC /* CourseCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7E621AE20EC3FD0005BFCFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7E621B520EC3FD0005BFCFC /* mvc_to_mvvm_demoTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C7E621B820EC3FD0005BFCFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C7E6216920EC0C44005BFCFC /* mvc_to_mvvm_demo */;
+			targetProxy = C7E621B720EC3FD0005BFCFC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		C7E6217120EC0C45005BFCFC /* Main.storyboard */ = {
@@ -281,7 +421,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = TU4944T6UG;
+				DEVELOPMENT_TEAM = ND2LGZT6B5;
 				INFOPLIST_FILE = mvc_to_mvvm_demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -289,7 +429,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.letsbuildthatapp.mvc-to-mvvm-demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -299,7 +439,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = TU4944T6UG;
+				DEVELOPMENT_TEAM = ND2LGZT6B5;
 				INFOPLIST_FILE = mvc_to_mvvm_demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -307,8 +447,48 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.letsbuildthatapp.mvc-to-mvvm-demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C7E621BA20EC3FD0005BFCFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TU4944T6UG;
+				INFOPLIST_FILE = mvc_to_mvvm_demoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.letsbuildthatapp.mvc-to-mvvm-demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mvc_to_mvvm_demo.app/mvc_to_mvvm_demo";
+			};
+			name = Debug;
+		};
+		C7E621BB20EC3FD0005BFCFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TU4944T6UG;
+				INFOPLIST_FILE = mvc_to_mvvm_demoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.letsbuildthatapp.mvc-to-mvvm-demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mvc_to_mvvm_demo.app/mvc_to_mvvm_demo";
 			};
 			name = Release;
 		};
@@ -329,6 +509,15 @@
 			buildConfigurations = (
 				C7E6217D20EC0C45005BFCFC /* Debug */,
 				C7E6217E20EC0C45005BFCFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7E621B920EC3FD0005BFCFC /* Build configuration list for PBXNativeTarget "mvc_to_mvvm_demoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7E621BA20EC3FD0005BFCFC /* Debug */,
+				C7E621BB20EC3FD0005BFCFC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
