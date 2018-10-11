@@ -457,7 +457,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = TU4944T6UG;
+				DEVELOPMENT_TEAM = ND2LGZT6B5;
 				INFOPLIST_FILE = mvc_to_mvvm_demoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -477,7 +477,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = TU4944T6UG;
+				DEVELOPMENT_TEAM = ND2LGZT6B5;
 				INFOPLIST_FILE = mvc_to_mvvm_demoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

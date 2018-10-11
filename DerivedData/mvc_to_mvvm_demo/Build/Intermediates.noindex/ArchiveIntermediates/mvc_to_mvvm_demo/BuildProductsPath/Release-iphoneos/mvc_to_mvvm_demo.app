@@ -1,0 +1,1 @@
+/Users/udn/Downloads/mvc_to_mvvm_demo_starter/DerivedData/mvc_to_mvvm_demo/Build/Intermediates.noindex/ArchiveIntermediates/mvc_to_mvvm_demo/InstallationBuildProductsLocation/Applications/mvc_to_mvvm_demo.app
