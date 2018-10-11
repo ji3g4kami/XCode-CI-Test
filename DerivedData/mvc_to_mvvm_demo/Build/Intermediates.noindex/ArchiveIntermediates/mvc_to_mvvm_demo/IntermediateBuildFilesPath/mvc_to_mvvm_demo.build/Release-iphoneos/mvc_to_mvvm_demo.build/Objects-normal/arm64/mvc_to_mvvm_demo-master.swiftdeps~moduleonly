@@ -1,6 +1,6 @@
 version: "Apple Swift version 4.2 (swiftlang-1000.11.37.1 clang-1000.11.45.1)"
 options: "71d8d6add68acdb6af771a955ab534c0"
-build_time: [1539232458, 47546000]
+build_time: [1539232816, 467796000]
 inputs:
   "/Users/udn/Downloads/mvc_to_mvvm_demo_starter/mvc_to_mvvm_demo/Controller/CoursesController.swift": [9223372036, 854775807]
   "/Users/udn/Downloads/mvc_to_mvvm_demo_starter/mvc_to_mvvm_demo/Model/Course.swift": [9223372036, 854775807]

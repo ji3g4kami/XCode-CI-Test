@@ -6,7 +6,7 @@
 	<integer>9</integer>
 	<key>logs</key>
 	<dict>
-		<key>70793905-3045-4A00-87F9-60A7F0472EDE</key>
+		<key>2192AFA2-F321-49E9-852C-CECA7F2ADB24</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -15,21 +15,21 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
 			<key>fileName</key>
-			<string>70793905-3045-4A00-87F9-60A7F0472EDE.xcactivitylog</string>
+			<string>2192AFA2-F321-49E9-852C-CECA7F2ADB24.xcactivitylog</string>
 			<key>highLevelStatus</key>
 			<string>S</string>
 			<key>signature</key>
 			<string>mvc_to_mvvm_demo-fqyvlnmfztorsafmbnfozuedxnlh</string>
 			<key>timeStartedRecording</key>
-			<real>560915136.18992102</real>
+			<real>560926189.57789004</real>
 			<key>timeStoppedRecording</key>
-			<real>560915137.58103895</real>
+			<real>560926189.63990605</real>
 			<key>title</key>
-			<string>Build target mvc_to_mvvm_demo</string>
+			<string>Clean target mvc_to_mvvm_demo</string>
 			<key>uniqueIdentifier</key>
-			<string>70793905-3045-4A00-87F9-60A7F0472EDE</string>
+			<string>2192AFA2-F321-49E9-852C-CECA7F2ADB24</string>
 		</dict>
-		<key>BCCAC203-CA5F-457D-8E73-8129371EA006</key>
+		<key>9F0E4DAA-6356-4A29-92C6-1793BEEEB90B</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -38,19 +38,19 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.target</string>
 			<key>fileName</key>
-			<string>BCCAC203-CA5F-457D-8E73-8129371EA006.xcactivitylog</string>
+			<string>9F0E4DAA-6356-4A29-92C6-1793BEEEB90B.xcactivitylog</string>
 			<key>highLevelStatus</key>
 			<string>S</string>
 			<key>signature</key>
 			<string>mvc_to_mvvm_demoTests-fqyvlnmfztorsafmbnfozuedxnlh</string>
 			<key>timeStartedRecording</key>
-			<real>560915136.18692005</real>
+			<real>560926189.52383196</real>
 			<key>timeStoppedRecording</key>
-			<real>560915139.77939105</real>
+			<real>560926189.52766299</real>
 			<key>title</key>
-			<string>Build target mvc_to_mvvm_demoTests</string>
+			<string>Clean target mvc_to_mvvm_demoTests</string>
 			<key>uniqueIdentifier</key>
-			<string>BCCAC203-CA5F-457D-8E73-8129371EA006</string>
+			<string>9F0E4DAA-6356-4A29-92C6-1793BEEEB90B</string>
 		</dict>
 	</dict>
 	<key>preserveOldLogs</key>
