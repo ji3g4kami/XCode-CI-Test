@@ -6,6 +6,35 @@
 	<integer>9</integer>
 	<key>logs</key>
 	<dict>
+		<key>1C6D5C35-0F04-47DE-B7F9-1C440BAC9F83</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>1C6D5C35-0F04-47DE-B7F9-1C440BAC9F83.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>mvc_to_mvvm_demo project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>mvc_to_mvvm_demo</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Archiving project mvc_to_mvvm_demo with scheme mvc_to_mvvm_demo</string>
+			<key>timeStartedRecording</key>
+			<real>560925257.27792597</real>
+			<key>timeStoppedRecording</key>
+			<real>560925266.38656497</real>
+			<key>title</key>
+			<string>Archiving project mvc_to_mvvm_demo with scheme mvc_to_mvvm_demo</string>
+			<key>uniqueIdentifier</key>
+			<string>1C6D5C35-0F04-47DE-B7F9-1C440BAC9F83</string>
+		</dict>
 		<key>8FC97251-E556-4F60-9121-05B6B8C31A89</key>
 		<dict>
 			<key>className</key>
@@ -34,35 +63,6 @@
 			<string>Archiving project mvc_to_mvvm_demo with scheme mvc_to_mvvm_demo</string>
 			<key>uniqueIdentifier</key>
 			<string>8FC97251-E556-4F60-9121-05B6B8C31A89</string>
-		</dict>
-		<key>D9EC79D5-9138-492A-8E79-BA28DA5F53A3</key>
-		<dict>
-			<key>className</key>
-			<string>IDECommandLineBuildLog</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>D9EC79D5-9138-492A-8E79-BA28DA5F53A3.xcactivitylog</string>
-			<key>highLevelStatus</key>
-			<string>S</string>
-			<key>schemeIdentifier-containerName</key>
-			<string>mvc_to_mvvm_demo project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>mvc_to_mvvm_demo</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Archiving project mvc_to_mvvm_demo with scheme mvc_to_mvvm_demo</string>
-			<key>timeStartedRecording</key>
-			<real>560924588.50046694</real>
-			<key>timeStoppedRecording</key>
-			<real>560924598.02772701</real>
-			<key>title</key>
-			<string>Archiving project mvc_to_mvvm_demo with scheme mvc_to_mvvm_demo</string>
-			<key>uniqueIdentifier</key>
-			<string>D9EC79D5-9138-492A-8E79-BA28DA5F53A3</string>
 		</dict>
 	</dict>
 </dict>
